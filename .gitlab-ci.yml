@@ -1,0 +1,8 @@
+my-job-test:
+  tags:
+    - my-window-terraform
+  script:
+    - whoami
+  #  - systeminfo
+    - az version
+    - terraform version
